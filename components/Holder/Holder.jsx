@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import styles from './Holder.module.css'
 
-const Holder = ({ loading, name, image, vertical}) => {
+const Holder = ({ type, loading, name, image, vertical}) => {
 
     const [showName, setShowName] = useState(false);
 
@@ -16,8 +16,9 @@ const Holder = ({ loading, name, image, vertical}) => {
     
     return <div className={`${vertical ? styles.holderVertical : styles.holder}`}>
             {(showName || loading)  &&
+
                 <div className={styles.characterSlot}>
-                    <img src={`../images/killers/${image}.png`} />
+                    <img src={`../images/${type == 'survivor' ? 'survivors' : 'killers'}/${image}.png`} />
                 </div>
             }
             {!loading &&
