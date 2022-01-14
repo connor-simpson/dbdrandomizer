@@ -1,0 +1,106 @@
+[
+    {
+      "name": "Plague",
+      "image": "plague"
+    },
+    {
+      "name": "Artist",
+      "image": "artist"
+    },
+    {
+      "name": "Blight",
+      "image": "blight"
+    },
+    {
+      "name": "Cannibal",
+      "image": "cannibal"
+    },
+    {
+      "name": "Clown",
+      "image": "clown"
+    },
+    {
+      "name": "Deathslinger",
+      "image": "deathslinger"
+    },
+    {
+      "name": "Doctor",
+      "image": "doctor"
+    },
+    {
+      "name": "Freddy",
+      "image": "freddy"
+    },
+    {
+      "name": "Ghostface",
+      "image": "ghostface"
+    },
+    {
+      "name": "Hag",
+      "image": "hag"
+    },
+    {
+      "name": "Hillbilly",
+      "image": "hillbilly"
+    },
+    {
+      "name": "Huntress",
+      "image": "huntress"
+    },
+    {
+      "name": "Legion",
+      "image": "legion"
+    },
+    {
+      "name": "Michael",
+      "image": "michael"
+    },
+    {
+      "name": "Nemesis",
+      "image": "nemesis"
+    },
+    {
+      "name": "Nurse",
+      "image": "nurse"
+    },
+    {
+      "name": "Oni",
+      "image": "oni"
+    },
+    {
+      "name": "Pig",
+      "image": "pig"
+    },
+    {
+      "name": "Pinhead",
+      "image": "pinhead"
+    },
+    {
+      "name": "Pyramidhead",
+      "image": "pyramidhead"
+    },
+    {
+      "name": "Spirit",
+      "image": "spirit"
+    },
+    {
+      "name": "Trapper",
+      "image": "trapper"
+    },
+    {
+      "name": "Trickster",
+      "image": "trickster"
+    },
+    {
+      "name": "Twins",
+      "image": "twins"
+    },
+    {
+      "name": "Wraith",
+      "image": "wraith"
+    },
+    {
+      "name": "Demogorgon",
+      "image": "demogorgon"
+    }    
+]
