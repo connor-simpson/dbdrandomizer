@@ -1,16 +1,13 @@
 .holder {
     color: white;
-    background: black;
+    background: url('../../public/images/grunge.png') black;
     display: flex;
-    border-radius: 20px;
-    min-height: 700px;
-}
-.holderLoading {
-    color: white;
-    background: url('../../public/images/loading.gif') no-repeat 500px center black;
-    display: flex;
-    border-radius: 20px;
-    min-height: 700px;
+    border-radius: 30px;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    height:100vh;
 }
 .characterSlot {
     height: 100vh;
@@ -18,15 +15,75 @@
 
 .characterSlot img {
     height: 100vh;
+    width: 400px;
+    animation: fadein 2s;
 }
 .characterDescription {
     flex-grow: 1;
     text-align: center;
     justify-content: center;
 }
+
+.loadingContainer {
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+}
+
+.loadingContainer h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing:5px;
+    font-size: 70px;
+    margin: 0;
+}
+
+.loadingContainer h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.loadingContainer img {
+    opacity: 0.6;
+}
+
 .characterDescription h1 {
     text-transform: uppercase;
     font-weight: 900;
     letter-spacing:5px;
     font-size: 70px;
+    margin: 0;
+    animation: fadein 2s;
 }
+.characterDescription h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 30px;
+    animation: shorten 4s;
+    font-weight: 300;
+    
+}
+
+@keyframes shorten {
+    from { font-size: 50px; }
+    to   { font-size: 30px; }
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+  
+  
+
+.justifiedText {
+   
+    font-size: 50px;
+    font-weight: 900;
+    text-align: justify;
+}
+.justifiedText:after {
+    content: "";
+    display: inline-block;
+    width: 100%;
+  }

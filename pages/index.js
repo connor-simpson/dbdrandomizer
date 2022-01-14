@@ -134,9 +134,7 @@ const Home = () => {
     }
   }, [loading])
 
-  return <Holder loading={loading} {...killer}>
-
-  </Holder>
+  return <Holder loading={loading} {...killer} />
 
 }
 
