@@ -1,0 +1,32 @@
+.holder {
+    color: white;
+    background: black;
+    display: flex;
+    border-radius: 20px;
+    min-height: 700px;
+}
+.holderLoading {
+    color: white;
+    background: url('../../public/images/loading.gif') no-repeat 500px center black;
+    display: flex;
+    border-radius: 20px;
+    min-height: 700px;
+}
+.characterSlot {
+    height: 100vh;
+}
+
+.characterSlot img {
+    height: 100vh;
+}
+.characterDescription {
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+}
+.characterDescription h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing:5px;
+    font-size: 70px;
+}
