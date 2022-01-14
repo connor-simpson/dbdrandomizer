@@ -111,6 +111,10 @@ const Home = () => {
     {
       name: "Wraith",
       image: "wraith"
+    },
+    {
+      name: "Demogorgon",
+      image: "demogorgon"
     }
     
   ]
