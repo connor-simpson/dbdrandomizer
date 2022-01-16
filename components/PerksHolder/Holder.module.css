@@ -1,0 +1,92 @@
+.holder {
+    color: white;
+    background: url('../../public/images/grunge.png') black;
+    display: flex;
+    border-radius: 30px;
+    align-items: center;
+    position: relative;
+    background-size: cover;
+    overflow: hidden;
+    height:100vh;
+}
+
+.loadingContainer {
+    flex-grow: 1;
+    text-align: center;
+    justify-content: center;
+    z-index: 100;
+}
+
+.loadingContainer h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing:5px;
+    font-size: 70px;
+    margin: 0;
+}
+
+.loadingContainer h2 {
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.loadingContainer img {
+    opacity: 0.6;
+}
+
+.characterDescription {
+    text-align: center;
+    flex-grow: 1;
+}
+.characterDescription h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing:5px;
+    font-size: 50px;
+    margin: 0;
+    animation: fadein 2s;
+    margin-bottom: 25px; 
+}
+.characterDescription h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    font-size: 30px;
+    animation: shorten 4s;
+    font-weight: 300;
+    
+}
+
+.perksList {
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    animation: fadein 2s;
+}
+.perksList li {
+    margin-right: 40px;
+    width: 250px;
+}
+.perksList li h3 {
+    text-transform: uppercase;
+    font-size: 100%px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+@keyframes shorten {
+    from { font-size: 50px; }
+    to   { font-size: 30px; }
+}
+
+@keyframes shortenVertical {
+    from { font-size: 40px; }
+    to   { font-size: 20px; }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+  
