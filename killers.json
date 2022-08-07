@@ -102,5 +102,13 @@
     {
       "name": "Demogorgon",
       "image": "demogorgon"
-    }    
+    },
+    {
+      "name": "Onryō",
+      "image": "onryo"
+    },
+    {
+      "name": "Dredge",
+      "image": "dredge"
+    }
 ]
